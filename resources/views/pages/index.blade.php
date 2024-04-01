@@ -42,7 +42,7 @@ new class extends Component {
 
         <div class="card border-0 shadow">
 
-          <a href="/produk/{{ $produk->slug }}" class="text-decoration-none text-dark" wire:navigate>
+          <a href="/{{ $produk->slug }}" class="text-decoration-none text-dark" wire:navigate>
 
             <img src="/img/1/1.jpeg" class="card-img-top" alt="laptop_gaming">
 
@@ -52,7 +52,7 @@ new class extends Component {
 
             <h5 class="card-title">
 
-              <a href="/produk/{{ $produk->slug }}" class="text-decoration-none" wire:navigate>
+              <a href="/{{ $produk->slug }}" class="text-decoration-none" wire:navigate>
 
                 {{ $produk->title }}
 

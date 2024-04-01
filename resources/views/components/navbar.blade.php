@@ -22,7 +22,7 @@
 
   <div class="container-fluid">
 
-    <a class="navbar-brand py-2" href="/" wire:navigate>ONLINE SHOP</a>
+    <a class="navbar-brand py-2" href="/">ONLINE SHOP</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 
